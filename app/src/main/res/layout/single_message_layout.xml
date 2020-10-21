@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/receiverTV"
+            android:padding="10dp"
+            android:fontFamily="serif"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:text="Message One"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/senderTV"
+            android:padding="10dp"
+            android:fontFamily="serif"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"
+            android:text="Message One"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
